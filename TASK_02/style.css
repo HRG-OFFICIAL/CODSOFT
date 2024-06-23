@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: #282a36;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+header,
+footer {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  height: 85vh;
+  padding: 20px;
+}
+
+.top-panel {
+  background-color: #fff;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 20px;
+  font-size: 2rem;
+  border-radius: 10px 10px 0 0;
+  color: #000;
+}
+
+.bottom-panel {
+  display: flex;
+  justify-content: space-between;
+  height: calc(100% - 80px);
+}
+
+.left-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  background-color: #1e1e1e;
+  padding: 10px;
+  overflow: auto;
+}
+
+.button {
+  width: 120px;
+  margin: 5px;
+  padding: 15px 0;
+  font-size: 1.2rem;
+  background-color: #212121;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.button:hover {
+  background-color: #414141;
+}
+
+.right-container {
+  display: flex;
+  flex-direction: column;
+  width:30%;
+  background-color: #212121;
+  font-size: 1.2rem;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+.right-container-list {
+  height: 100%;
+  overflow-y: auto;
+}
+.right-container-clear {
+  background-color: #f44336;
+  border: none;
+  width: 100%;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+.right-container-clear:hover {
+  background-color: #e53935;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+  main {
+    flex-direction: column;
+  }
+
+  .bottom-panel {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .button {
+    width: calc(33.33% - 10px);
+  }
+
+  .right-container {
+    display: none;
+  }
+}

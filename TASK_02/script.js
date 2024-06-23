@@ -10,8 +10,6 @@ function factorial(number) {
       return number * factorial(number - 1);
   }
 }
-
-// Function to append text to the display
 function appendText(text) {
   if (display.textContent === '0' || display.textContent === 'Error') {
     display.textContent = '';

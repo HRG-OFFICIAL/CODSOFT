@@ -2,6 +2,10 @@
 
 Welcome to my Virtual Web Development Internship repository! This repository contains tasks completed during my internship.
 
+## Access My Public Codespace
+To access my Codespace for this repository, click [here](https://fantastic-dollop-9774wj9xv69rf7q4g-5500.app.github.dev/).
+
+
 ## Task 01 - Portfolio
 
 ### Description

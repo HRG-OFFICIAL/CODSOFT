@@ -117,7 +117,7 @@ main {
 }
 
 #about-me{
-  height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -151,10 +151,6 @@ main {
   padding: 10px;
 }
 
-.Languages h3 {
-  background-color: #000000;
-  padding: 10px;
-}
 
 img {
   width: 120px;

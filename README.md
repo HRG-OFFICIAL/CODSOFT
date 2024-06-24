@@ -7,6 +7,10 @@ To access my Codespace for this repository, click [here](https://fantastic-dollo
 
 
 ## Task 01 - Portfolio
+<video width="640" height="360" controls>
+  <source src="TASK_01/assets/video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ### Description
 This task involves creating a personal portfolio website showcasing various projects and skills.
@@ -34,6 +38,11 @@ Open `index.html` in a web browser to view the portfolio.
 
 ## Task 02 - Landing Page - Travel Agency
 
+<video width="640" height="360" controls>
+  <source src="TASK_02/assets/video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 ### Description
 Design and develop a landing page for a travel agency website.
 
@@ -57,6 +66,11 @@ Design and develop a landing page for a travel agency website.
 Open `index.html` in a web browser to view the landing page.
 
 ## Task 03 - Calculator
+
+<video width="640" height="360" controls>
+  <source src="TASK_03/assets/video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ### Description
 Create a web-based calculator application.

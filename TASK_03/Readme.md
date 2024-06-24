@@ -13,28 +13,6 @@ A simple and responsive calculator web application built using HTML, CSS, and Ja
 - Memory function to store and recall previous results.
 - Responsive design for seamless usage across various devices.
 
-### Demo
-
-You can try out the calculator [here](https://hrg-official.github.io/Calculator/).
-
-### Getting Started
-
-To run the calculator locally on your machine, follow these steps:
-
-1. Clone this repository:
-
-   ```bash
-   git clone https://github.com/HRG-OFFICIAL/Calculator.git
-   ```
-
-2. Navigate to the project directory:
-
-   ```bash
-   cd calculator
-   ```
-
-3. Open `index.html` in your preferred web browser.
-
 ### Usage
 
 - Enter numerical values and perform calculations using the buttons provided.

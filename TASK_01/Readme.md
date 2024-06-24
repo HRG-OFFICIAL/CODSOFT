@@ -26,12 +26,6 @@ As a passionate student entering the world of web development, I've created this
 - `assets/`: Directory for project assets (images, etc.)
 - `Readme.md`: Documentation for the project
 
-## Usage
-
-1. Clone the repository: `git clone https://github.com/HRG-OFFICIAL/My-Portfolio.github.io.git`
-2. Navigate to the project directory: `cd My-Portfolio`
-3. Open `index.html` in your web browser.
-
 ## Contributing
 
 Contributions are welcome! If you find any issues or have suggestions for improvement, please feel free to open an issue or create a pull request.

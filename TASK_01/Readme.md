@@ -15,7 +15,6 @@ As a passionate student entering the world of web development, I've created this
 - HTML5
 - CSS3
 - JavaScript
-- Bootstrap
 - Font Awesome
 
 ## Project Structure

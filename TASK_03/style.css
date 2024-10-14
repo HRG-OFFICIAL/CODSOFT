@@ -106,6 +106,7 @@ main {
 }
 
 /* Media Query for Mobile Devices */
+/* Media Query for Mobile Devices */
 @media (max-width: 768px) {
 
   .bottom-panel {
@@ -113,10 +114,29 @@ main {
   }
 
   .button {
-    width: calc(33.33% - 10px);
+    width: calc(25% - 10px);
   }
 
   .right-container {
+    display: none;
+  }
+
+  /* Hide operations in the first three columns */
+  #radian, 
+  #degree, 
+  #factorial, 
+  #reciprocal, 
+  #sin, 
+  #log, 
+  #pi, 
+  #cos, 
+  #log10, 
+  #e, 
+  #tan, 
+  #square-root, 
+  #ans, 
+  #exponent, 
+  #power {
     display: none;
   }
 }
